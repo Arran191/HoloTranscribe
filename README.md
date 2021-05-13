@@ -1,8 +1,13 @@
-# Project
+# HoloTranscribe
 
 ## Overview
 
-This repo was developed for my final year project. This project is a HoloLens application that provides live captioning to users but will identify if the user is speaking and will not transcribe them. It uses a mix of Unity, C# and Python to achive this.
+This repo was developed for my final year project. This project is a HoloLens application that provides live captioning to users but will identify if the user is speaking and will not transcribe them. It uses a mix of Unity, C# and Python to achive this. See abstract
+
+### Abstract
+The possibility of increasing accessibility for those with disabilities using head-mounted displays is immense. This project presents \textit{HoloTranscribe}, an artifact for increasing accessibility for hard of hearing and deaf individuals by providing a real-time transcription to a Microsoft Hololens. The artifact provides a solution to an overlooked problem of similar works; when using automatic speech recognition to transcribe, you will also transcribe the user of the application. Individually trained GMM statistical models are used classify an incoming audio-stream from a Hololens to a Python server used for classification. Based on that classification the audio is transcribed or not. Development of the artifact was conducted in Unity using the Mixed Reality Toolkit while the speaker-recogniser is created in Python, they communicate over a local network.
+
+Results obtained from our speaker-recogniser provided a overall accuracy of 88.7\%, showing the feasibility of the artefact, however limiting factors such as poor performance for short-utterances show that more work is needed before it is ready for personal use. 
 
 ## Features
 
