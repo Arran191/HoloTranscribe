@@ -1,0 +1,12 @@
+certifi==2020.12.5
+joblib==1.0.1
+numpy==1.20.3
+PyAudio==0.2.11
+python-speech-features==0.6
+pyzmq==22.0.3
+scikit-learn==0.24.2
+scipy==1.6.3
+sklearn==0.0
+threadpoolctl==2.1.0
+wincertstore==0.2
+zmq==0.0.0
