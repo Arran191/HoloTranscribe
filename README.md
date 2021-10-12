@@ -1,8 +1,8 @@
 # HoloTranscribe
 
 ## Overview
+A live-transcription application for the Microsoft Hololens, uses a Python server to classify the the user so they are not transcribed.  It uses Unity application for the Hololens side which can connect to a python server via local network. Python config will need changing if you wish to use this via localhost. 
 
-This repo was developed for my final year project. This project is a HoloLens application that provides live captioning to users but will identify if the user is speaking and will not transcribe them. It uses a mix of Unity, C# and Python to achive this.
 
 ## Features
 
